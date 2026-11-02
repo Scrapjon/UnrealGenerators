@@ -74,9 +74,6 @@ Plugins/**/Intermediate/*
 # Cache files for the editor to use
 DerivedDataCache/*
 
-# Standard Assets Images
-*.png
-*.jpg
 
 # Standard Assets Models
 *.fbx
