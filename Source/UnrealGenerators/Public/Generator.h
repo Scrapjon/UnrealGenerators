@@ -108,7 +108,7 @@ public:
 	}
 	
 	FPointerType operator->() const noexcept {
-		return std::addressof(operator*);
+		return std::addressof(operator*());
 	}
 	
 private:
