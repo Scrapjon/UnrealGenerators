@@ -140,7 +140,7 @@ public:
 	}
 	
 	TGenerator& operator=(TGenerator Other) noexcept {
-		Swap(Other);
+		Swap(Other); // may need optimisation
 		return *this;
 	}
 	
